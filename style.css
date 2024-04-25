@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none !important;
+    text-decoration: none !important;
+    /* border: 1px solid red !important; */
+}
+
+/* navbar */
+.navbar{
+    background-color: rgba(7, 2, 2, 0.89) !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-info{
+    text-align: center !important;
+}
+
+.nav-info p{
+    color: white !important;
+}
+
+.nav-info a{
+    text-decoration: none !important;
+}
+/* navbar */
+/* hero */
+.herosection{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(./img/genius-coder-programme.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: 100% !important; 
+}
+
+.jumbotron{
+    height: 100% !important;
+    width: 100% !important;
+    padding: 110px 100px !important;
+}
+
+.jumbotron h1{
+    color: white !important;
+    font-size: 50px !important;
+    text-transform: capitalize !important;
+}
+
+.jumbotron p{
+    color: white !important;
+    font-size: x-large !important;
+    font-weight: normal !important;
+}
+/* ḥero */
+/* table */
+.table-heading h3{
+    text-transform: capitalize !important;
+    font-size: 35px !important;
+    font-weight: normal !important;
+}
+
+.table-heading-1 p{
+    line-height: 1.7 !important;
+}
+
+.table-image img{
+    width: 100% !important;
+}
+
+.table-button button{
+    padding: 5px 100px !important;
+    border: 1px solid #0094b9 !important;
+    color: #0094b9 !important;
+    background: #fff !important;
+}
+
+.table-button button:hover{
+    color: #fff !important;
+    background-color: #0094b9 !important;
+}
+/* table */
+/* card */
+
+.card-heading h3{
+    text-transform: capitalize !important;
+    font-size: 35px !important;
+    font-weight: normal !important;
+    margin: 20px 0 !important;
+    text-align: center !important;
+}
+
+.card-heading p{
+    margin-bottom: 20px !important;
+}
+
+.box-icons i{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    padding: 15px 15px !important;
+    border-radius: 50% !important;
+    margin-bottom: 10px !important;
+}
+
+.card-text{
+    text-transform: capitalize !important;
+    font-size: x-large !important;
+    font-weight: bold !important;
+}
+
+.box-ul{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    padding: 20px !important;
+    gap: 3px !important;
+}
+
+.box-ul li{
+    text-transform: capitalize !important;
+    /* line-height: 4 !important; */
+    padding: 10px 0 !important;
+}
+
+.box-ul i{
+    background-color:rgba(255, 255, 255, 0.5) !important;
+    padding: 6px 6px !important;
+    border-radius: 50% !important;
+    margin-left: 5px !important;
+}
+/* card */
+
+/* why us */
+
+.why-us{
+    background: #172b4d !important;
+    padding: 100px 0 150px 0 !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.why h3{
+    font-size: 45px !important;
+    text-transform: capitalize !important;
+}
+
+.why h5{
+    text-transform: capitalize !important;
+    font-size: xx-large !important;
+    font-weight: lighter !important;
+    line-height: 2 !important;
+}
+
+.why p{
+    line-height: 2 !important;
+}
+
+/* why us */
+
+/* trial */
+
+.trial h3{
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+    text-align: center !important;
+    font-size: xx-large !important;
+}
+
+.trial h5{
+    text-transform: capitalize !important;
+    font-weight: lighter !important;
+    text-align: center !important;
+}
+
+.trial p{
+    text-transform: capitalize !important;
+    font-weight: lighter !important;
+    text-align: center !important;
+}
+
+.trial-button{
+    justify-content: center !important;
+    align-items: center !important;
+    display:flex !important;
+}
+
+.trial-button button{
+    padding: 10px 100px !important;
+    border: 1px solid #0094b9 !important;
+    color: #0094b9 !important;
+    background-color: #fff !important;
+    border-radius: 5px !important;
+}
+
+.trial-button button:hover{
+    color: #fff !important;
+    background-color: #0094b9 !important;
+}
+
+/* trial */
+/* box */
+
+.box-section{
+    background: #172b4d !important;
+}
+
+.box h2{
+    text-transform: capitalize !important;
+    color: #fff !important;
+    text-align: center !important;
+    line-height: 1.5 !important;
+    font-size: 45px !important;
+}
+
+.box span{
+    color: yellow !important;
+    font-weight: normal !important;
+    font-size: 35px !important;
+}
+
+.box p{
+    color: #fff !important;
+    line-height: 2 !important;
+    font-size: large !important;
+    font-weight: lighter !important;
+}
+
+.image-box{
+    background-color: #fff !important;
+    border-radius: 5px !important;
+    padding: 10px 10px 0 10px !important;
+}
+
+.image-box img{
+    border-radius: 5px !important;
+}
+
+.image-icons{
+    margin-bottom: 30px !important;
+    text-transform: capitalize !important;
+} 
+
+.image-icons h5{
+    color: #172b4d !important;
+}
+
+.image-box:hover{
+    transform: scale(1.1) !important;
+    transition: 0.3s !important;
+}
+ 
+/* box */
+
+/* chart */
+
+.chart-phara h3{
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+    font-size: xx-large !important;
+}
+
+.chart-phara img{
+    width: 90% !important;
+}
+
+.chart-button button{
+    padding: 10px 100px !important;
+    text-transform: capitalize !important;
+    background-color: #fff !important;
+    color: #172b4d !important;
+    border: 1px solid #172b4d !important;
+}
+
+.chart-button button:hover{
+    background-color: #172b4d !important;
+    color: #fff !important;
+}
+
+.chart-button-1 button{
+    padding: 10px 35px !important;
+    text-transform: capitalize !important;
+    background-color: #fff !important;
+    color: #0094b9 !important;
+    border: 1px solid #0094b9 !important;
+}
+
+.chart-button-1 button:hover{
+    background-color: #0094b9 !important;
+    color: #fff !important;
+}
+/* chart */
+
+.footer-1{
+    background-color: #222 !important;
+}
+
+.footer-logo p{
+    color: gray !important;
+}
+
+.footer-logo a{
+    color: #0094b9 !important;
+}
+
+.footer-logo a:hover{
+    color: #4c57eb94 !important;
+}
+
+.footer-links h4{
+    color: gray !important;
+    text-transform: capitalize !important;
+}
+
+.footer-links li{
+    /* color: #0094b9 !important; */
+    text-transform: capitalize !important;
+}
+
+.footer-links a{
+    color: #0094b9 !important;
+}
+
+.footer-links a:hover{
+    color: #4c57eb94 !important;
+}
+
+.footer-icons-1 h4{
+    color: gray !important;
+    text-transform: capitalize !important;
+}
+
+.footer-icons-1 i{
+    padding: 15px !important;
+    border-radius: 50px !important;
+}
+
+
+.footer-icons-2 h4{
+    color: gray !important;
+    text-transform: capitalize !important;
+}
+
+.footer-icons-2 i{
+    padding: 15px !important;
+    border-radius: 50px !important;
+}
+
+.foot-btn button{
+    padding: 5px 20px !important;
+    border: 2px solid green !important;
+    color: green !important;
+    background-color: #222 !important;
+    margin-left: 10px !important;
+}
+
+.foot-btn button:hover{
+    color: #fff !important;
+    background-color: green !important;
+}
+
+.footer-2{
+    background-color: #222 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.footer-about p{
+    color: gray !important;
+}
+
+.footer-about a{
+    color: #0094b9 !important;
+}
+
+.footer-about a:hover{
+    color: #4c57eb94 !important;
+}
+
+.footer-about-1 a{
+    color: gray !important;
+}
+
+.footer-about-1 a:hover{
+    color: #4c57eb94 !important;
+}
+
+
+
+
+
+
+
+/* media query */
+
+@media (max-width:576px){
+
+    .nav-info{
+        display: none !important;
+    }
+
+    /* herosection */
+
+    .jumbotron{
+        padding: 5px !important;
+    }
+
+    /*  */
+
+    /* table section */
+
+    .table-button button{
+        text-align: center !important;
+    }
+
+    /*  */
+
+    /* trail section */
+
+    .trial-button button{
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        display: flex !important;
+    }
+
+    /*  */
+    
+    /* card section*/
+
+    .card-body{
+        padding: 0 !important;
+    }
+
+    .box-ul{
+        padding: 0 !important;
+    }
+
+    /*  */
+
+    /* card */
+
+    .chart-button button{
+        padding: 5px 50px !important;
+        text-align: center !important;
+    }
+
+    .chart-button-1 button{
+        padding: 5px 40px !important;
+        text-align: center !important;
+    }
+
+    /*  */
+
+}
+
+
+@media (max-width:769px){
+
+    .nav-info{
+        display: none !important;
+    }
+
+}
+
+@media (max-width:991px){
+
+    .nav-info{
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
